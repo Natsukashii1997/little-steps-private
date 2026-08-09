@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f6f0e2" />
+    <meta
+      name="description"
+      content="记录宝宝成长、健康、记忆、早教与学习的温暖家庭工作台。"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Little Steps" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/assets/app-icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/app-icons/icon-192.png" />
+    <title>Little Steps · 婴儿成长工作台</title>
+    <script type="module" crossorigin src="/assets/index-CqedVUpt.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B74T6sgc.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js").catch(() => undefined);
+        });
+      }
+    </script>
+  </body>
+</html>
