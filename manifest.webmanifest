@@ -13,19 +13,19 @@
   "categories": ["parenting", "lifestyle", "education"],
   "icons": [
     {
-      "src": "/assets/app-icons/icon-192.png",
+      "src": "/assets/app-icons/app-icon-baby-192-v1.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/app-icons/icon-512.png",
+      "src": "/assets/app-icons/app-icon-baby-512-v1.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/app-icons/icon-maskable-512.png",
+      "src": "/assets/app-icons/app-icon-baby-maskable-512-v1.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

@@ -1,15 +1,15 @@
 const CACHE_PREFIX = "little-steps-pwa";
-const CACHE_VERSION = "v9-development-hero-layout";
+const CACHE_VERSION = "v10-baby-app-icon";
 const CACHE_NAME = `${CACHE_PREFIX}-${CACHE_VERSION}`;
 
 const CORE_ASSETS = [
   "/",
   "/index.html",
   "/manifest.webmanifest",
-  "/assets/app-icons/apple-touch-icon.png",
-  "/assets/app-icons/icon-192.png",
-  "/assets/app-icons/icon-512.png",
-  "/assets/app-icons/icon-maskable-512.png",
+  "/assets/app-icons/app-icon-baby-180-v1.png",
+  "/assets/app-icons/app-icon-baby-192-v1.png",
+  "/assets/app-icons/app-icon-baby-512-v1.png",
+  "/assets/app-icons/app-icon-baby-maskable-512-v1.png",
   "/assets/baby/final-screens/zh-CN/01-home-dynamic-add-clean.png",
   "/assets/baby/final-screens/zh-CN/02-memory-book-home-paper-v1.png",
   "/assets/baby/final-screens/zh-CN/03-growth-curve.png",
